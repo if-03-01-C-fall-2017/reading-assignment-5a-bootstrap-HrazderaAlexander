@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="de";
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>CheatSheetBootstrap</title>
+		<!-- Bootstrap core CSS -->
+		<Link href="css/bootstrap.min.css" rel="stylesheet">
+		<Link href="css/blog.css" rel="stylesheet">
+		<!-- Custom styles for this template -->
+	</head>
+	<body>
+	
+	<div class="blog-masthead">
+		<div class="container">
+			<nav class="blog-nav">
+				<a class="blog-nav-item">Navigationspunkt</a>
+				<a class="blog-nav-item">Navigationspunkt</a>
+				<a class="blog-nav-item">Navigationspunkt</a>
+				<a class="blog-nav-item">Navigationspunkt</a>
+				<a class="blog-nav-item">Navigationspunkt</a>
+				<a class="blog-nav-item">Navigationspunkt</a>
+				<a class="blog-nav-item">Optionen</a>
+				<a class="blog-nav-item">selbstfahrende Autos</a>
+				<a class="blog-nav-item">Über uns</a>
+				<a class="blog-nav-item">Geschichte des selbstfahrenden Autos</a>
+				
+			</div>
+		</div>
+	</div>
+	
+	<div class="container">
+		<div class="blog-header">
+			<h1 class="blog-title">Alexanders Website</h1>
+			<p class ="blog-beschreibung">Dies ist eine Website</p>
+			
+			<del>incididunt ut labore</del> <!-- Streicht den Text durch-->
+			
+			<u>ullamco laboris nisi</u> <!-- Unterstreicht den Text-->
+			
+			<p class="text-left">Left aligned text.</p> <!--Text linksbündig-->
+			
+			<p class="text-center">Center aligned text.</p> <!-- Text im mittelpunkt-->
+			
+			<p class"=text-right">Right aligned text.</p> <!-- Text rechtsbündig-->
+			
+			<p class="text-justify">Justified text.</p> <!-- -->
+			
+			<p class ="text-left text lowercase">Left aligned text.</p> <!-- linksbündiger kleinbuchstaben text-->
+			
+			<p class="text-center text-uppercase">Centerd uppercase text.</p> <!-- mittelbündig Großbuchstaben-->
+			
+			<p class="text-right text-capitalize">Right aligned capitalized text.</p> <!-- -->
+			
+			<h2> Floating </h2>
+			
+			<div class ="pull-right">Div floated to right</div>
+			<div class ="pull-left">Div floated to left</div>
+			<div class ="clearfix"></div> <!--Stop the floating-->
+			
+			
+			<h2> Blockquotes </h2>
+			
+			<blockquote class="blockquote-reverse"> <!-- -->
+				<p> Lorem ipsum dolor sit amet, consectetur </p>
+				<footer>Quote by <cite title ="John Doe">John Doe</cite></footer>
+			</blockquote>
+			
+			<h2> Lists <h2>
+			
+			<ul class="list-unstyled"> <!--	-->
+				<li>Item One</li>
+				<li>Item Two</li>
+				<li>Item Three</li>
+				<li>Item Four</li>
+			</ul>
+			
+			<ul class="list-inline">
+				<li>Item One</li>
+				<li>Item Two</li>
+				<li>Item Three</li>
+				<li>Item Four</li>
+			</ul>
+			
+			<h2> Contextual Colors </h2>
+			
+			<!-- Klassen um den Hintergrund zu färben-->
+			
+			<p class="text-primary">Hello World</p> <!-- Blau-->
+			<p class="text-success">Hello World</p> <!--Grün-->
+			<p class="text-info">Hello World</p> <!--Anderes Grün-->
+			<p class="text-warning">Hello World</p> <!--Braun-->
+			<p class="text-danger">Hello World</p> <!--Rot-->
+			<p class="text-muted">Hello World</p> <!--Grau-->
+			
+			<p class="bg-primary">Hello World</p> <!--Blauer Hintergrund-->
+			<p class="bg-success">Hello World</p> <!--Grüner Hintergrund-->
+			<p class="bg-info">Hello World</p> <!--Anderes Grün-->
+			<p class="bg-warning">Hello World</p> <!--Braun-->
+			<p class="bg-danger">Hello World</p> <!--Rot-->
+			<p class="bg-muted">Hello World</p> <!--Grau-->
+			
+		</div>
+	</div>
+	
+		<div class="container">
+		
+			<button class="btn btn-default">Button</button> <!--Button erstellen-->
+			
+			<a href="#" class="btn btn-default" role="button">Link</a> <!-- href="#" links to the top of the page. You can use any link here, e.g. href="http://www.orf.at" Als link Verwenden-->
+			
+			<input type="submit" class="btn btn-default" value="Submit"> <!--For a button used in a form try the subsequent code-->
+			
+			<h2>Contextual Buttons<h2>
+			
+			<button class="btn btn-default">Default</button> <!-- -->
+			<button class="btn btn-primary">Primary</button> <!-- -->
+			<button class="btn btn-success">Success</button> <!-- -->
+			<button class="btn btn-info">Info</button> <!-- -->
+			<button class="btn btn-warning">Warnig</button> <!-- -->
+			<button class="btn btn-danger">Delete</button> <!-- -->
+			<button class="btn btn-link">Link</button> <!-- -->
+
+			<!-- Size of the button-->
+			
+			<button class="btn btn-default btn-lg">large</button>
+			<button class="btn btn-default">default</button>
+			<button class="btn btn-primary btn-sm">small</button>
+			<button class="btn btn-default btn-xs" disabled>extra small and disabled</button>
+			
+			<h2> Tables </h2>
+			
+			<table>
+				<tr>
+					<th>Firstname</th>
+					<th>Lastname</th>
+					<th>Age</th>
+				</tr>
+				<tr>
+					<td>Jill</td>
+					<td>Smith</td>
+					<td>50</td>
+				</tr>
+				<tr>
+					<td>Eve</td>
+					<td>Jackson</td>
+					<td>24</td>
+				</tr>
+				<tr>
+					<td>John</td>
+					<td>Doe</td>
+					<td>34</td>
+				</tr>
+				<tr>
+					<td>Stephanie</td>
+					<td>Landon</td>
+					<td>47</td>
+				</tr>
+				<tr>
+					<td>Mike</td>
+					<td>Johnson</td>
+					<td>19</td>
+				</tr>
+			</table>
+			
+			<h2> List Groups <h2>
+			
+			<ul class="list-group">
+				<li class="list-group-item">Cras justo odio</li>
+				<li class="list-group-item">Dapibus ac facilisis in</li>
+				<li class="list-group-item">Morbi leo risus</li>
+				<li class="list-group-item">Porta ac consectetur ac</li>
+				<li class="list-group-item">Vestibulum at eros</li>
+			</ul>
+
+			<h2>Active items</h2>
+			
+			<li class="list-group-item active">Dapibus ac facilisis in</li>
+			
+			<h2>Disabled items</h2>
+			
+			<li class="list-group-item disabled">Cras justo odio</li>
+			
+			<h2>Links and Buttons</h2>
+			
+			<div class="list-group">
+				<a href="#" class="list-group-item active">
+					Cras justo odio
+				</a>
+				<a href="#" class="list-group-item list-group-item-action">Dapibus ac </a>
+				<a href="#" class="list-group-item list-group-item-action disabled">Vestibulum at eros</a>
+			</div>
+			
+			<div class="list-group">
+				<button type="button" class="list-group-item list-group-item-action active">
+				Cras justo odio
+				</button>
+				<button type="button" class="list-group-item list-group-item-action">Dapibus ac facilisis in</button>
+				<button type="button" class="list-group-item list-group-item-action disabled">Morbi leo risus</button>
+				<button type="button" class="list-group-item list-group-item-action">Porta ac consectetur ac</button>
+				<button type="button" class="list-group-item list-group-item-action" disabled>Vestibulum at eros</button>
+			</div>
+			
+			<h2>Cards</h2>
+			
+			<div class="card" style="width: 20rem;">
+				<img class="card-img-top" src="..." alt="Card image cap">
+				<div class="card-body">
+					<h4 class="card-title">Card title</h4>
+					<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+					<a href="#" class="btn btn-primary">Go somewhere</a>
+				</div>
+			</div>
+			
+			<div class="container">
+				<div class="row">
+				<div class="col-*-*"></div>
+			</div>
+			<div class="row">
+				<div class="col-*-*"></div>
+				<div class="col-*-*"></div>
+				<div class="col-*-*"></div>
+			</div>
+			<div class="row">
+		</div>
+	</div>
+	
+	<h2>Images & Figurs</h2>
+	
+	<img src="picture of your choice" class="img-responisve" alt="Responsive image">
+	
+	<h2>Rounded Corners<h2>
+	<img src="picture of your choice" class="img-rounded" alt="pic with rounded corners">
+	
+	<h2> Circle </h2>
+	<img src="picture of your choice" class="img-circle" alt="pic with rounded corners" width="304" height="236">
+			
+		</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	
+	</body>
+</html>
